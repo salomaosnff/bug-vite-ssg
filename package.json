@@ -1,0 +1,22 @@
+{
+  "name": "bug-vite-ssg",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite-ssg build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.2",
+    "vite-ssg": "^0.22.2"
+  },
+  "dependencies": {
+    "@vueuse/head": "^1.1.26",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.1"
+  }
+}
